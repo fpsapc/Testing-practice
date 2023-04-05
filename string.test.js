@@ -1,4 +1,4 @@
-const stringLength = require("./stringLength");
+import stringLength from "./stringLength.js";
 
 test("stringLength returns the correct length of the string", () => {
   expect(stringLength("hello")).toBe(5);
